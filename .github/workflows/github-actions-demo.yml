@@ -21,7 +21,7 @@ jobs:
           - uses: actions/checkout@v4.1.1
 
           - name: List files in the repositories
-          - run: |
+            run: |
               echo "${{ github.repository }} contiens les fichiers suivants:"
               tree
           
